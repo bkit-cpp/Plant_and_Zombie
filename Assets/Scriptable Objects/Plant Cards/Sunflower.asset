@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f3eb6fc957dca94dbb9977fc8f88a84, type: 3}
+  m_Name: Sunflower
+  m_EditorClassIdentifier: 
+  plantIcon: {fileID: 2800000, guid: 34592cac4d748004b9bd3665d76a7919, type: 3}
+  Bullet: {fileID: 0}
+  plantSprite: {fileID: 21300000, guid: 34592cac4d748004b9bd3665d76a7919, type: 3}
+  zombieLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  cost: 50
+  cooldown: 2
+  isSunFlower: 1
+  sunSpawnerTemplate: {fileID: 1501243854906866995, guid: 8aa48adacc23ff348a37448ad08993a0, type: 3}
+  health: 50
+  damage: 0
+  range: 0
+  speed: 0
+  size: {x: 0.35, y: 0.35}
